@@ -257,10 +257,6 @@ hr {
 }
 
 
-
-
-
-
 .proyectos {
     margin: 150px 0px;
     width: 90%;
@@ -296,10 +292,8 @@ hr {
 }
 
 .preguntas {
-    display: flex;
     width: 90%;
     background-color: #FEECD1;
-    justify-content: center;
     margin: 80px 0px;
     border-radius: 25px;
 }
@@ -315,7 +309,6 @@ hr {
 
 .preguntas h1 {
     width: 5%;
-    align-items: flex-start;
     text-align: center;
     font-size: 36px;
     color: #78290F;
