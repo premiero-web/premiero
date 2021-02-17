@@ -51,6 +51,16 @@ body {
 
 }
 
+
+hr {
+    background-color: #FEECD1;
+    margin: 50px 10%;
+    height: 3px;
+    border: 0px;
+
+}
+
+
 a {
     text-decoration: none;
     color:unset;
@@ -110,7 +120,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     min-height: 500px;
-    max-width:80%;
+    width: 90%;
     margin: 30px 10px;
     display: flex;
     flex-direction: column;
@@ -181,13 +191,6 @@ a:hover {
 
 }
 
-hr {
-    background-color: #FEECD1;
-    margin: 50px 10%;
-    height: 3px;
-    border: 0px;
-
-}
 
 .proceso ol {
     display: flex;
@@ -247,8 +250,6 @@ hr {
     border: 1px ;
 }
 
-
-
 .equipo ol img {
     width: 300px;
     margin-bottom: 10px;
@@ -297,6 +298,7 @@ hr {
     margin: 80px 0px;
     border-radius: 25px;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .preguntas h1 {
@@ -310,7 +312,11 @@ hr {
     list-style: none;
     color: #78290F;
     text-align: justify;
-    padding-right: 5%;
+    padding: 0% 5%;
+}
+
+.preguntas ul li {
+    margin: 3% 0px;
 }
 
 footer {
@@ -322,15 +328,15 @@ footer {
     width: 100%;
 }
 
-footer p {
+footer .legal {
     padding: 0px 10px;
 }
 
-.social a {
+footer .social a {
     height: 35px;
 }
 
-.social img {
+footer .social img {
     height: 25px;
     padding: 0px 10px;
 }
@@ -338,6 +344,14 @@ footer p {
 @media only screen and (max-width: 550px) {
     body {
         font-size: 14px;
+    }
+
+
+    hr {
+        margin: 20px 10%;
+        height: 2px;
+        border: 0px;
+    
     }
 
     nav {
@@ -348,27 +362,17 @@ footer p {
       }
     
     #logo {
-        height: 30px;
-        padding: 3px;
-        padding-left: 5px;
-        display: flex;
-        align-items: center;
+        height: 40px;
+        display: block;
+        justify-content: center;
     }
     
     nav ul {
-        font-size: 12px;
-        padding-right: 10px;
-
+        display: none;
     }
-    
-    nav ul li {
-        min-width: 20%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
+ 
     .cabecera {
-        min-height: 400px;
+        min-height: 350px;
         align-items: center;
         justify-content: center;
     }
@@ -380,20 +384,18 @@ footer p {
     }
     
     .cabecera h2 {
-        font-size: 12px;
-        padding: 5px;
-        margin: 0;
+        font-size: 16px;
+        padding: 5px 2px;
+        margin: 30px 35px;
         margin-top: 30px;
+        text-align: center;
     }
     
     .entradilla {
         max-width: 90%;
-        font-size: 14px;
-    }
-    
-    #texto_resumen {
-        width: 80%;
-        font-size: 14px;
+        font-size: 12px;
+        margin: 40px 0px;
+        
     }
 
     .resumen {
@@ -402,52 +404,113 @@ footer p {
         margin: 5px;
     }
 
+    #texto_resumen {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .servicios {
+        margin-top: 70px;
+        padding: 20px 0px;
+    }
+
+    .servicios h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .servicios ol {
+        flex-direction: column;
+        padding-bottom: 30px;
+
+    }
+
+    .servicios ol li {
+        width: 80%;
+        line-height: 1.2;
+        padding: 5%;
+    }
+
+    .servicios ol img {
+        width: 15%;
+    }
+
+    .proceso {
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+
     .proceso h2 {
-        font-size: 22px;
-        padding-top: 40px;
-        padding: 5px;
+        font-size: 28px;
     }
     
     .proceso ol {
         justify-content: center;
-        max-width: 400px;
-        margin: 0;
-        padding: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 85%;
     }
     
     .proceso ol li {
-        border: 0px solid white;
-        width: 300px;
-        height: 140px;
+        width: 75%;
         margin: 0;
-        padding: 0;
+        margin-left: -20px;
     }
     
     .proceso ol li img {
-        max-height: 40px;
-        margin: 0;
-        padding: 0;
+        width: 30px;
     }
 
-    .clientes h1 {
-        font-size: 22px;
-        padding-top: 40px;
+    .equipo {
+        margin-top: 20px;
+        padding: 0px 0px;
+    }
+
+    .equipo h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .equipo ol {
+        padding-bottom: 10px;
+    }
+
+    .equipo ol li {
+        width: 90%;
+        line-height: 1;
+        padding: 0% 0%;
+        margin: 0px 0px;
+        margin-bottom: 60px;
+        margin-left: -40px;
+    }
+
+    .equipo ol img {
+        width: 100px;
+    }
+
+    .proyectos {
+        margin: 30px 0px;
+    }
+
+    .proyectos h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
     }
     
-    .clientes ol {
-        max-width: 400px;
+    .proyectos ol {
         align-items: flex-start;
         justify-content: center;
-        margin: 0;
+        margin: 0px 0px;
         padding: 0;
+        margin-left: 35px;
     }
     
-    .clientes ol li {
-        width: 150px;
+    .proyectos ol li {
+        width: 90%;
         max-height: 80px;
     }
     
-    .clientes ol li img {
+    .proyectos ol li img {
         max-width: 150px;
         margin: 0;
         padding: 0;
@@ -458,8 +521,8 @@ footer p {
     }
 
     .preguntas h1 {
-        font-size: 22px;
-        padding-top: 40px;
+        font-size: 24px;
+        padding: 15px 0px;
     }
     
     
@@ -473,18 +536,22 @@ footer p {
     .preguntas ul li {
         max-width: 98%;
         justify-content: center;
-        margin: 0;
+        margin: 20px 20px;
         padding: 0;
     }
     
-    .social img {
-        padding-top: 50px;
-        max-height:30px;
+    footer {
+        flex-direction: column;
+        text-align: center;
     }
 
-    footer p {
-        padding:5px;
-        font-size: 12px;
+    footer .legal {
+        padding: 0px 50px;
+        font-size: 14px;
+    }
+
+    footer .social img {
+        padding: 20px 20px;
     }
     
 }
