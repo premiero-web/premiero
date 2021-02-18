@@ -7,3 +7,6 @@ resources/images/Icon
 resources/images/desktop.ini
 *.ini
 Icon
+Icon
+resources/.DS_Store
+resources/css/.DS_Store
