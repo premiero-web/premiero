@@ -48,18 +48,14 @@ body {
     flex-direction: column;
     font-family: 'Maven Pro', sans-serif;
     color: #301006;
-
 }
-
 
 hr {
     background-color: #FEECD1;
     margin: 50px 10%;
     height: 3px;
     border: 0px;
-
 }
-
 
 a {
     text-decoration: none;
@@ -182,7 +178,6 @@ a:hover {
 
 }
 
-
 .proceso h2 {
     font-family: 'IBM Plex Mono', monospace;
     text-align: center;
@@ -190,7 +185,6 @@ a:hover {
     color: #78290F;
 
 }
-
 
 .proceso ol {
     display: flex;
@@ -257,12 +251,10 @@ a:hover {
 
 }
 
-
 .proyectos {
     margin: 150px 0px;
     width: 90%;
 }
-
 
 .proyectos h1 {
     font-family: 'IBM Plex Mono', monospace;
@@ -332,13 +324,10 @@ footer .legal {
     padding: 0px 10px;
 }
 
-footer .social a {
-    height: 35px;
-}
-
 footer .social img {
     height: 25px;
     padding: 0px 10px;
+
 }
 
 @media only screen and (max-width: 550px) {
