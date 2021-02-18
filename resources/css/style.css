@@ -311,6 +311,53 @@ a:hover {
     margin: 3% 0px;
 }
 
+.avisolegal {
+    text-align: center;
+    font-size: 36px;
+    color: #78290F;
+    background-color: #FEECD1;
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.aviso {
+    width: 70%;
+    margin: 30px 0;
+    line-height: 2;
+    text-align: justify;
+}
+
+.aviso ol li {
+    list-style-type: none;
+    counter-increment: lista;
+    position: relative;
+    }
+    
+.aviso ol li::before {
+    color: #78290F;
+    content: counter(lista); 
+    left: -57px;
+    top: 5px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    font-size: 1.3rem;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #FEECD1;
+    padding-right: 15px;
+    border-radius: 100px;
+    }
+
+
+
+.aviso strong {
+    color: #78290F;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5rem;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -529,6 +576,29 @@ footer .social img {
         padding: 0;
     }
     
+    .avisolegal {
+        font-size: 26px;
+        padding: 10px 0px;
+    }
+    
+    .aviso {
+        width: 90%;
+        line-height: 1.5;
+    }
+    
+    .aviso ol li::before {
+        left: -47px;
+        top: 1px;
+        width: 21px;
+        font-size: 1.1rem;
+        padding-right: 12px;
+    }
+    
+    .aviso strong {
+        font-size: 1.1rem;
+    }
+
+
     footer {
         flex-direction: column;
         text-align: center;
