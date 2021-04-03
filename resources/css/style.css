@@ -38,7 +38,7 @@ nav ul li {
     padding: 0px 10px;
 }
 
-nav ul li button {
+nav ul button {
     background-color: #5e780f;
     border: 0;
     padding: 7px 20px;
@@ -227,6 +227,7 @@ a:hover {
     text-align: center;
     list-style: none;
     padding-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .blogCajas article {
@@ -475,7 +476,6 @@ footer .social img {
         font-size: 14px;
     }
 
-
     hr {
         margin: 20px 10%;
         height: 2px;
@@ -483,23 +483,38 @@ footer .social img {
     
     }
 
-    nav {
-        display: block;
-        min-width: 100%;
-        justify-content: space-between;
-
-      }
-    
     #logo {
         height: 40px;
         display: block;
         justify-content: center;
     }
     
-    nav ul {
+    nav ul li {
         display: none;
     }
- 
+
+    nav ul button {
+        background-color: #5e780f;
+        border: 0;
+        padding: 5px 16px;
+        border-radius: 15px;
+        font-size: 14px;
+        font-family: 'Maven Pro', sans-serif;
+        color: #FEECD1;
+    }
+
+    .blogCabecera {
+        min-height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .blogCabecera h1 {
+        font-size: 28px;
+        margin-left: 0px;
+        padding: 5px 10px;
+    }
+
     .cabecera {
         min-height: 350px;
         align-items: center;
@@ -520,11 +535,55 @@ footer .social img {
         text-align: center;
     }
     
+    .cabeceraBlog {
+        margin-top: 30px;
+        min-height: 240px;
+        margin-bottom: 0px;
+    } 
+    
+    .cabeceraBlog h2 {
+        padding: 40px 10px;
+        font-size: 24px;
+    }
+
     .entradilla {
         max-width: 90%;
         font-size: 12px;
         margin: 40px 0px;
         
+    }
+
+    .blogCajas {
+        width: 90%;
+        margin-top: 40px;
+        padding: 3px 3px;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    
+    .blogCajas article {
+        width: 85%;
+        padding: 3% 10%;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .blogCajas article img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .blogArticulo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .blogArticulo article {
+        width: 80%;
+    }
+    
+    .blogArticulo img {
+        width: 80%;
     }
 
     .resumen {
