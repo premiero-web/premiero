@@ -584,6 +584,7 @@ footer .social img {
     
     .blogArticulo img {
         width: 80%;
+        max-height: 200px;
     }
 
     .resumen {
