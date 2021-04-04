@@ -100,13 +100,21 @@ a:hover {
     padding: 10px 30px;
 }
 
+.cabecera h2 {
+    background-color: #FEECD1;
+    color: #78290F;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: 100px;
+    padding: 10px 30px;
+}
+
 .blogCabecera {
     background-image: url("./resources/blog.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 50px;
-    min-height: 300px;
+    min-height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -123,7 +131,7 @@ a:hover {
     padding: 10px 30px;
 }
 
-.cabecera h2 {
+.blogCabecera h2 {
     background-color: #FEECD1;
     color: #78290F;
     font-family: 'IBM Plex Mono', monospace;
@@ -235,6 +243,7 @@ a:hover {
     padding: 0% 3%;
     line-height: 1.5;
     text-align: justify;
+    margin: 20px 0px;
 }
 
 .blogCajas article img {
@@ -515,6 +524,12 @@ footer .social img {
         padding: 5px 10px;
     }
 
+    .blogCabecera h2 {
+        margin-left: 0px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
     .cabecera {
         min-height: 350px;
         align-items: center;
@@ -566,6 +581,7 @@ footer .social img {
         padding: 3% 10%;
         line-height: 1.5;
         text-align: justify;
+        margin: 0px;
     }
     
     .blogCajas article img {
