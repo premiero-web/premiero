@@ -848,10 +848,7 @@ footer .social img {
     }
     
     .contacto input {
-        background-color: white;
-        font-family: 'Maven Pro', sans-serif;
         font-size: 14px;
-        color: #78290F;
         border: 1px;
         width: 100px;
         height: 30px;
@@ -867,16 +864,12 @@ footer .social img {
     }
     
     .contacto button {
-        background-color: #78290F;
         border: 0;
         padding: 7px 20px;
-
         font-size: 14px;
         width: 258px;
         height: 40px;
     }
-
-
 
     .avisolegal {
         font-size: 26px;
