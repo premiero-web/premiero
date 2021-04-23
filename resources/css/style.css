@@ -388,7 +388,7 @@ a:hover {
 }
 
 .preguntas {
-    width: 90%;
+    width: 80%;
     background-color: #FEECD1;
     margin: 80px 0px;
     border-radius: 25px;
@@ -400,7 +400,7 @@ a:hover {
     text-align: center;
     font-size: 42px;
     color: #78290F;
-    padding: 50px 0px;
+    padding: 25px 0px;
     font-family: 'IBM Plex Mono', monospace;
 }
 .preguntas ul {
@@ -882,12 +882,13 @@ footer .social img {
     }
 
     .preguntas {
-        max-width: 400px;
+        max-width: 95%;
+        min-width: 85%;
     }
 
     .preguntas h2 {
-        font-size: 24px;
-        padding: 15px 0px;
+        font-size: 23px;
+        padding: 10px 5px;
     }
     
     
