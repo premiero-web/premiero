@@ -18,7 +18,15 @@
         gtag('js', new Date());
         gtag('config', 'UA-132816033-1');
     </script>
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+      $(function() {
+        $( "#accordion" ).accordion();
+      });
+    </script>
 </head>
 <body>
     <header id="premiero">
@@ -99,20 +107,44 @@
         <h1>Preguntas Frecuentes</h1>
         <ul>
             <li>
-                <h3>¿Quién puede estar interesado?</h3>
-                <p>Ya seas una empresa o un particular, si necesitas una landing page personalizada y a medida, que revisemos tu branding, o cualquier otro diseño, nosotros te ayudamos a mostrar la mejor imagen de ti o de tu negocio.</p>
+                <div class="qa">
+                    <input type="checkbox" id="qa0">
+                    <label for="qa0">¿Quién puede estar interesado? ▿</label>
+                    <hr>
+                    <div>
+                    <p>Ya seas una empresa o un particular, si necesitas una landing page personalizada y a medida, que revisemos tu branding, o cualquier otro diseño, nosotros te ayudamos a mostrar la mejor imagen de ti o de tu negocio.</p>   
+                    </div>
+                </div>
             </li>
             <li>
-                <h3>¿Cuesta mucho dinero?</h3>
-                <p>Nuestra filosofía es hacer un trabajo de calidad con un presupuesto ajustado. Siempre buscamos que el precio sea el más competitivo del mercado, para ello, hemos optimizado nuestros procesos y los costes operativos son mínimos.</p>
+                <div class="qa">
+                    <input type="checkbox" id="qa1">
+                    <label for="qa1">¿Cuesta mucho dinero? ▿</label>
+                    <hr>
+                    <div>
+                        <p>Nuestra filosofía es hacer un trabajo de calidad con un presupuesto ajustado. Siempre buscamos que el precio sea el más competitivo del mercado, para ello, hemos optimizado nuestros procesos y los costes operativos son mínimos.</p>
+                    </div>
+                </div>
             </li>
             <li>
-                <h3>¿Cómo lo conseguimos?</h3>
-                <p>Analizamos todos los elementos de tu marca, estableciendo conjuntamente el propósito buscado, y lo relacionamos con el marketing mix (producto, precio, distribución y promoción), con ello le damos a nuestro diseño un sentido y coherencia.</p>
+                <div class="qa">
+                    <input type="checkbox" id="qa2">
+                    <label for="qa2">¿Cómo lo conseguimos? ▿</label>
+                    <hr>
+                    <div>
+                        <p>Analizamos todos los elementos de tu marca, estableciendo conjuntamente el propósito buscado, y lo relacionamos con el marketing mix (producto, precio, distribución y promoción), con ello le damos a nuestro diseño un sentido y coherencia.</p>
+                    </div>
+                </div>
             </li>
             <li>
-                <h3>¿Y si no quedo satisfecho?</h3>
-                <p>Sabemos que esto no va a ocurrir, pero siempre establecemos un plazo para revisar los resultados de las acciones emprendidas.</p>
+                <div class="qa">
+                    <input type="checkbox" id="qa3">
+                    <label for="qa3">¿Y si no quedo satisfecho? ▿</label>
+                    <hr>
+                    <div>
+                        <p>Sabemos que esto no va a ocurrir, pero siempre establecemos un plazo para revisar los resultados de las acciones emprendidas.</p>
+                    </div>
+                </div>
             </li>
         </ul>
     </div>
