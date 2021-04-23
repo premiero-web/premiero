@@ -445,12 +445,17 @@ a:hover {
 }
 
 .qa label:before {
+    content:"▽";
     display:inline-block;
     height:20px;
     width:20px;
     text-align:left;
     margin-right:10px;
 }
+
+.qa input:checked ~ label:before {
+    content:"△";
+  }
   
 .qa div {
     display:none;
