@@ -450,7 +450,7 @@ a:hover {
     padding-top: 10px;
 }
 
-.contacto input {
+.contacto .datos {
     background-color: white;
     font-family: 'Maven Pro', sans-serif;
     font-size: 18px;
@@ -473,6 +473,12 @@ a:hover {
     padding: 10px 10px;
     border-radius: 15px;
 
+}
+
+.contacto .politica {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    justify-content: left;
 }
 
 .contacto button {
@@ -847,7 +853,7 @@ footer .social img {
         padding: 20px 0px;
     }
     
-    .contacto input {
+    .contacto .datos {
         font-size: 14px;
         border: 1px;
         width: 100px;
@@ -861,6 +867,11 @@ footer .social img {
         padding: 10px 10px;
         border-radius: 15px;
     
+    }
+
+    .contacto .politica {
+        font-size: 12px;
+        justify-content: left;
     }
     
     .contacto button {
