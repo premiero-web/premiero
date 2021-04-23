@@ -359,7 +359,7 @@ a:hover {
     width: 90%;
 }
 
-.proyectos h1 {
+.proyectos h2 {
     font-family: 'IBM Plex Mono', monospace;
     text-align: center;
     font-size: 42px;
@@ -396,9 +396,9 @@ a:hover {
     padding-bottom: 5%;
 }
 
-.preguntas h1 {
+.preguntas h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 42px;
     color: #78290F;
     padding: 50px 0px;
     font-family: 'IBM Plex Mono', monospace;
@@ -468,9 +468,9 @@ a:hover {
     padding-bottom: 5%;
 }
 
-.contacto h1 {
+.contacto h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 42px;
     color: #78290F;
     padding: 50px 0px;
     font-family: 'IBM Plex Mono', monospace;
@@ -507,7 +507,6 @@ a:hover {
     height: 40px;
     padding: 0px 10px;
     border-radius: 15px;
-
 }
 
 .contacto textarea {
@@ -519,7 +518,6 @@ a:hover {
     height: 160px;
     padding: 10px 10px;
     border-radius: 15px;
-
 }
 
 .contacto .politica {
@@ -569,7 +567,7 @@ a:hover {
     list-style-type: none;
     counter-increment: lista;
     position: relative;
-    }
+}
     
 .aviso ol li::before {
     color: #78290F;
@@ -584,9 +582,7 @@ a:hover {
     background-color: #FEECD1;
     padding-right: 15px;
     border-radius: 100px;
-    }
-
-
+}
 
 .aviso strong {
     color: #78290F;
@@ -655,7 +651,6 @@ footer .social img {
         margin: 20px 10%;
         height: 2px;
         border: 0px;
-    
     }
 
     #logo {
@@ -793,7 +788,6 @@ footer .social img {
     .servicios ol {
         flex-direction: column;
         padding-bottom: 30px;
-
     }
 
     .servicios ol li {
@@ -863,7 +857,7 @@ footer .social img {
         margin: 30px 0px;
     }
 
-    .proyectos h1 {
+    .proyectos h2 {
         font-size: 28px;
         margin-bottom: 20px;
     }
@@ -891,7 +885,7 @@ footer .social img {
         max-width: 400px;
     }
 
-    .preguntas h1 {
+    .preguntas h2 {
         font-size: 24px;
         padding: 15px 0px;
     }
@@ -919,7 +913,7 @@ footer .social img {
         font-size: 14px;
     }
     
-    .contacto h1 {
+    .contacto h2 {
         font-size: 24px;
         padding: 10px 0px;
     }
@@ -954,7 +948,6 @@ footer .social img {
         height: 160px;
         padding: 10px 10px;
         border-radius: 15px;
-    
     }
 
     .contacto .politica {
