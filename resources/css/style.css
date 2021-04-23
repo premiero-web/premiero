@@ -559,14 +559,14 @@ a:hover {
     margin: auto;
     position: relative;
     top: 0px;
-    height: 58px;
+    height: 38px;
     width: 100%;
     text-align:center;
-    background-color: #eeeeee;
+    background-color:#ffffff42;
 }
 #infobox3 p {
     line-height:58px;
-    font-size:12px;
+    font-size:10px;
     text-align:center;
 }
 #infobox3 p a {
