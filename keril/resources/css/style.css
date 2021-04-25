@@ -209,7 +209,15 @@ a {
     width: 60%;
 }
 
-hr {
+#barra1 {
+    background-color: #006433;
+    height: 3px;
+    width: 80%;
+    border: 0px;
+    margin: 40px 0px;
+}
+
+#barra2 {
     background-color: #006433;
     height: 3px;
     width: 80%;
@@ -301,8 +309,6 @@ hr {
     padding: 0px 0px;
 }
 
-
-
 #formulario input {
     background-color: white;
     font-family: 'Roboto', sans-serif;
@@ -368,7 +374,6 @@ footer ul {
     margin-left: 80px;
 }
 
-
 footer ul p {
     text-align: left;
     margin-left: 10px;
@@ -382,237 +387,275 @@ footer ul li #linkedin {
 
 @media only screen and (max-width: 550px) {
     
-    body {
-        font-size: 14px;
-    }
-
-    header nav {
-  
-        min-width: 100%;
-        
-    }
-    
-    header nav #logo {
-        height: 30px;
-        padding: 3px;
-        padding-left: 5px;
- 
-    }
-    
-    header nav ul {
-        font-size: 12px;
-        padding-right: 0px;
-        margin-right: 5px;
-
-    }
-    
-    header nav ul li {
-        margin-right: 5px;
-
-        min-width: 20%;
-
-    
-    }
-    
-    header nav #acceso {
+    header {
         display: none;
-
     }
+    
+    
     
     #cabecera {
-        min-height: 450px;
+        background-image: url("./resources/portada.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 950px;
+        margin-top: -100px;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
-    #cabecera #entradilla {
-
-        margin-left: 20px;
-        padding: 5px;
-        width: 90%;
-        height: 100%;
+    #entradilla {
+        padding: 1px;
+        margin: 0px;
+        width: 70%;
+        height: 120px;
+        margin-top: 350px;
+        border-radius: 15px;
     }
     
     #cabecera #entradilla h1 {
-        font-size: 26px;
+        font-size: 22px;
     }
     
     #cabecera #entradilla h2 {
-        font-size: 18px;
+        display: none;
     }
     
-    #cabecera #entradilla p {
-        font-size: 12px;
+    #cabecera #entradilla h3 {
+        font-size: 14px;
+    
+    }
+    
+    #cabecera #entradilla br {
+        display: none;
     }
 
-    #resumen ul {
+    #titular {
+        text-align: center;
+        width:95%;
+        padding: 0px 0px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    
+    #titular h3 {
+        font-size: 16px;
+    }
+    
+    #preguntas {
+        width: 90%;
+        border-radius: 15px;
+    }
+    
+    #preguntas ol li{
+        margin: 5px 0px;
+        width: 100%;
+        font-size: 14px;
+        margin-right: 80px;
+    }
+    
+    #servicios {
+        margin: 30px 0px;
+    }
+    
+    #servicios h1 {
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+    
+    #servicios ol {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        flex-direction: column;
-
-        min-width: 80%;
-      
-    }
-    
-    #resumen ul li {
-        border: 0px solid white;
-        margin: 5px;
-        padding: 0px;
-        width: 70%;
-        min-height: 150px;
-        text-align: left;
-    }
-    
-    #resumen ul li img {
-        max-width: 50px;
-        
-    }
-
-    #valores {
-        padding:  0;
-        justify-content: center;
-        max-width: 90%;
-        margin: 0;
-
-    }
-
-    #valores img {
-        max-width: 80%;
-    }
-
-    #valores #nuestrosvalores {
+        align-items: center;
         width: 80%;
-    }  
-
-    #valores #nuestrosvalores h1 {
-        font-size: 22px
-    }
-
-    #valores #nuestrosvalores h3 {
-        font-size: 16px;
-    }
-
-    #valores #nuestrosvalores ol {
-        
-        max-width: 400px;
-        margin: 0;
-        padding: 0;
-      
-    }
-
-    #valores #nuestrosvalores ol li {
-        min-width: 100%;
-        margin-top: 5px;;
-    }
-
-    #proceso ol {
-        justify-content: center;
-        max-width: 400px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    #proceso ol li {
-        width: 300px;
-        margin: 0;
-        padding: 0;
-    }
-
-    #valores #nuestrosvalores ol li h2 {
-        font-size: 18px;
-    }
-
-    #valores #nuestrosvalores ol li h3 {
-        font-size: 16px;
-    }
-
-    #valores #nuestrosvalores ol li p {
         font-size: 14px;
     }
-
-    #contactanos {
-        background-image: url("./resources/contactanos.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        filter: opacity (20%);
-        min-height: 200px;
+    
+    #servicios ol li {
         width: 100%;
+    
+    }
+    
+    #servicios ol #izquierda {
+        text-align: center;
+        border-right: none;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    
+    #servicios ol #derecha {
+        text-align: center;
+        padding-left: 0px
+    }
+    
+    #clientes {
+        width: 90%;
+        margin: 30px 0px;
+        
+    }
+    
+    #clientes h1 {
+        font-size: 30px;
+        color: #006433;
+        padding: 10px 0px;
+        margin: 0px 0px;
+    }
+    
+    #clientes ul {
+        display: flex;
+        list-style: none;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: -10px;
+    }
+    
+    #clientes ul li {
+        width: 45%;
+    }
+    
+    #clientes img {
+        width: 90%;
+    }
+    
+    #barra1 {
+        display: none;
+    }
+
+    #barra2 {
+        height: 2px;
+        width: 90%;
+        border: 0px;
+        margin: 20px 0px;
+    }
+
+    #proceso {
+        display: none;
+    }
+    
+    
+    #logos {
+        width: 90%;
+        margin: 0px 0px;
+    }
+    
+    #logos ul {
+        display: flex;
+        list-style: none;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logos ul li {
+        width: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #logos img {
+        align-items: center;
+    }
+    
+    #contacto {
+        background-image: none;
+        margin: -150px 0px;  
+        width: 95%;
+        max-height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #formulario {
+        width: 100%;
+        padding-bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        margin: 0px;
+    }
+    
+    #formulario h1 {
+        font-size: 30px;
+    }
+    
+    #formulario #espacio {
+        width: 2%;
+    }
+    
+    #formulario ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        width: 80%;
+        padding: 0 0;
+        border-radius: 20px;
+    }
+    
+    #formulario input {
+        font-size: 14px;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+    
+    }
+    
+    #formulario textarea {
+        font-size: 14px;
+        width: 238px;
+        border-radius: 10px;
+    
+    }
+    
+    #formulario button {
+        border-radius: 10px;
+        font-size: 14px;
+        width: 258px;
+        height: 30px;
+    }
+    
+    
+    
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #006433;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    footer ul {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        flex-wrap: wrap;
-    
+        list-style: none;
+        width: 80%;
+        margin-left: 0px;
     }
     
-    #contactanos h5 {
-        font-size: 32px;
-    }
-    
-    #contactanos #boton {
-        font-size: 16px;
-    }
-
-    #contactanos #boton img {
-        max-width: 50%;
-    }
-
-    .contacto h1 {
-        font-size: 24px;
-        padding: 10px 0px;
-    }
-    
-    .contacto ul {
-        margin-right: 35px;
-    }
-
-    .contacto ul li {
-        padding: 0px 30px;
-    }
-    
-    .contacto form {
-        padding: 0px 0px;
-    }
-    
-    .contacto input {
-        font-size: 14px;
-        border: 1px;
-        width: 100px;
-        height: 30px;
-    }
-    
-    .contacto textarea {
-        font-size: 14px;
-        width: 238px;
-        height: 160px;
-        padding: 10px 10px;
-        border-radius: 15px;
-    
-    }
-    
-    .contacto button {
-        border: 0;
-        padding: 7px 20px;
-        font-size: 14px;
-        width: 258px;
-        height: 40px;
-    }
-
-    footer {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    
-    footer ul #logo2 {
-        display: none;
-    }
-
-    footer ul li p {
-        font-size: 12px;
+    footer ul p {
+        text-align: center;
+        margin-left: 0px;
     }
     
     footer ul li #linkedin {
-        display: none
+        padding-top: 20px;
+        width: 30px;
     }
-
     
-}
-
