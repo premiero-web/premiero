@@ -276,6 +276,10 @@ hr {
     color:#d5dee7;
 }
 
+#formulario #espacio {
+    width: 2%;
+}
+
 #formulario ul {
     display: flex;
     flex-wrap: wrap;
