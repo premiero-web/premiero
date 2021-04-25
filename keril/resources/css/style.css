@@ -82,7 +82,7 @@ a {
     margin-top: 200px;
     border-radius: 20px;
     text-align: center;
-    opacity: 70%;
+    opacity: 90%;
 }
 
 #cabecera #entradilla h1 {
@@ -358,6 +358,7 @@ footer ul {
     align-items: center;
     list-style: none;
     width: 80%;
+    margin-left: 80px;
 }
 
 
