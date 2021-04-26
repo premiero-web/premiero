@@ -318,7 +318,6 @@ a {
 }
 
 #formulario input {
-    background-color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     background-color: #d5dee7;
@@ -362,6 +361,32 @@ a {
     opacity: 75%;
 }
 
+#cabeceralegal {
+    background-color: #006433;
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabeceralegal h1 {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62px;
+}
+
+#aviso {
+    max-width: 65%;
+    margin: 40px 0;
+    line-height: 2;
+    text-align: justify;
+}
+
+#aviso ol {
+    list-style: decimal-leading-zero;
+}
 
 footer {
     padding-top: 10px;
@@ -432,8 +457,8 @@ footer ul li #linkedin {
         padding: 1px;
         margin: 0px;
         width: 70%;
-        height: 120px;
-        margin-top: 50px;
+        height: 170px;
+        margin-top: 90px;
         border-radius: 15px;
     }
     
@@ -456,7 +481,7 @@ footer ul li #linkedin {
 
     #titular {
         text-align: center;
-        width:95%;
+        width: 95%;
         padding: 0px 0px;
         margin-top: -70px;
         margin-bottom: 30px;
@@ -483,7 +508,7 @@ footer ul li #linkedin {
     }
     
     #servicios h1 {
-        font-size: 30px;
+        font-size: 26px;
         padding: 20px 0px;
     }
     
@@ -521,7 +546,7 @@ footer ul li #linkedin {
     }
     
     #clientes h1 {
-        font-size: 30px;
+        font-size: 26px;
         color: #006433;
         padding: 10px 0px;
         margin: 0px 0px;
@@ -608,7 +633,9 @@ footer ul li #linkedin {
     }
     
     #formulario h1 {
-        font-size: 30px;
+        font-size: 26px;
+        color: #006433;
+
     }
     
     #formulario #espacio {
@@ -631,6 +658,8 @@ footer ul li #linkedin {
         width: 100px;
         height: 30px;
         border-radius: 10px;
+        color: #006433;
+
     
     }
     
@@ -638,7 +667,8 @@ footer ul li #linkedin {
         font-size: 14px;
         width: 238px;
         border-radius: 10px;
-    
+        color: #006433;
+
     }
     
     #formulario button {
@@ -646,10 +676,26 @@ footer ul li #linkedin {
         font-size: 14px;
         width: 258px;
         height: 30px;
+        color: #d5dee7;
+        background-color: #006433;
+
+    }
+        
+    #cabeceralegal {
+        min-height: 250px;
     }
     
-    
-    
+    #cabeceralegal h1 {
+        font-size: 38px;
+    }
+
+    #aviso {
+        max-width: 85%;
+        margin: 20px 0;
+        line-height: 1.5;
+    }
+
+
     footer {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -679,4 +725,4 @@ footer ul li #linkedin {
         padding-top: 20px;
         width: 30px;
     }
-    
+}
