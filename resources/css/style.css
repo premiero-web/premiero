@@ -455,8 +455,10 @@ a:hover {
 
 .qa input:checked ~ label:before {
     content:"△";
-  }
+}
   
+
+
 .qa div {
     display:none;
     padding-top:5px;
