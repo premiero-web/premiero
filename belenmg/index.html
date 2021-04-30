@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="resources/css/style.css" type="text/css" rel="stylesheet">
-    <!--PREPARAR FAVICON-->
-    <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="resources/images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!--PONER LAS LETRAS NECESARIAS-->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
    
-    <!--MENSAJE DE COOKIES
+    <!--MENSAJE DE COOKIES-->
     <script src="resources/js/jquery-3.6.0.min.js" type="text/javascript"></script>
 	<script src="resources/js/cookies.js" type="text/javascript"></script>
-    -->
 
     <!--GOOGLE ANALYTICS
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132816033-1"></script>
@@ -25,139 +22,56 @@
         gtag('config', 'UA-132816033-1');
     </script>
     -->
-
-    <!-- PONER EN CASO DE QUE SE VAYA A USAR UN MENU DESPLEGABLE 
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script>
-      $(function() {
-        $( "#accordion" ).accordion();
-      });
-    </script>
-    -->
-
     <title>Belenmg Studio</title>
 </head>
 <body>
     <header id="belenmg">
         <nav>
-            <a href="#belenmg"><img id="logo" src="./resources/images/logo_premiero.png"></a>
+            <a href="#belenmg"><img id="logo" src="./resources/images/logo-belenmg.png"></a>
             <ul>
+                <a href="#quiensoy"><li>Quien Soy</li></a>
+                <a href="#fotografia"><li>Fotografía</li></a>
                 <a href="#servicios"><li>Servicios</li></a>
-                <a href="#proceso"><li>Proceso</li></a>
-                <a href="#equipo"><li>Equipo</li></a>
-                <a href="#proyectos"><li>Proyectos</li></a>
-                <a href="#preguntas"><li>Preguntas</li></a>
                 <a href="#contacto"><li>Contacto</li></a>
-                <a href="blog.html"><button>Blog</button></a>
+                <a href="portfolio.html"><button>Portfolio</button></a>
             </ul>
         </nav>
     </header>
     <div class="cabecera">
-        <h1>diseño_web;</h1>
-        <h2>Ya eres bueno en lo que haces, es el momento de destacar</h2>
+        <h1>Belénmg Studio</h1>
+        <div class="botones">
+            <a href="https://www.aumpanshop.com/" target="_blank"><button>Aum Pan Shop</button></a>
+            <a href="https://www.premiero.es/" target="_blank"><button>Premiero</button></a> 
+        </div>
+
     </div>
     <br>
-    <div class="entradilla">
-        <h3>>_Trabajamos con aquellos que no salen en los medios,</h3>
-        <h3>que viven en los márgenes y en los espacios en blanco</h3>    
-        <h3>¡Personas que son libres!</h3>
-    </div>
-    <br>
-    <div class="resumen">
-        <div id="texto_resumen">
-            <h3>¿Tienes una buena idea y un gran producto?</h3>
-            <p>Necesitas una página web a medida para mostrarlo</p>
-            <p><strong>¡Nosotros te ayudamos!</strong></p>
-            <p>Somos expertos en páginas estaticas y landing pages, siempre buscaremos la imagen con la que destaque tu marca</p>
+    <div class="quiensoy" id="quiensoy">
+        <img src="resources/images/quiensoy.jpg">
+        <div class="cajon1">
+            <h3>Belén Núñez-Milara Gómez</h3>
+            <p>​<b>¡Hola!</b> ¡Soy Belén y me dedico al diseño gráfico! Antes, estudié arquitectura de interiores en la universidad Politécnica de Madrid pero al terminar en plena crisis tuve que reinventarme e hice un Máster en Diseño Gráfico y Comunicación Audiovisual con especialización en Dirección de Arte en CICE.</p>
+            <p>De la arquitectura me quedo con el orden, simetría, las líneas y la claridad en las formas y espacios. Del diseño gráfico con la teoría del color y los patrones. Además me encanta el lettering y el diseño editorial.</p>
+            <p>Hace ya unos años que viví en un pueblecito de Inglaterra y me gustan los gatos, la fotografía, los viajes mochileros, la meditación y el yoga, la música rock e indie, las series y el cine.</p>
         </div>
     </div>
     <br>
+    <div class="fotografia" id="fotografia">
+        <h2>Fotografía</h2>
+        <img src="./resources/images/fotografia.jpg">
+    </div>
     <br>
     <div class="servicios" id="servicios">
         <h2>Servicios</h2>
-        <ol>
-            <li><img src="./resources/images/desarrollo.png"><br>DISEÑO WEB<br><br>Diseñamos páginas estáticas y landing pages únicas adaptadas a tus necesidades, y las dotamos de la esencia de tu marca.</li>
-            <li><img src="./resources/images/branding.png"><br>BRANDING<br><br>Creamos tu logotipo, y buscamos los colores y tipografías que mejor se adapten, conseguimos que todo trabaje en armonía.</li>
-            <li><img src="./resources/images/maquetacion.png"><br>MAQUETACIÓN<br><br>Diseñamos tu documentación comercial de forma coherente con tu marca para que sea clara y atractiva.</li>
-        </ol>
-    </div>
-    <div class="proceso" id="proceso">
-        <h2>Proceso</h2>
-        <hr>
-        <ol>
-            <li><img src="./resources/images/Icon-1.png"><p>Analizamos todas las claves de tu marca, además recabamos información respecto a tus metas y objetivos.</p></li>
-            <li><img src="./resources/images/Icon-2.png"><p>Redactamos una oferta, en la que describimos lo que nos hemos encontrado, relacionado con el marketing mix, estableciendo un diseño base.</p></li>
-            <li><img src="./resources/images/Icon-3.png"><p>Nos ponemos a trabajar en base a la oferta elaborada, recabando toda la información necesaria para ponerla en marcha.</p></li>
-            <li><img src="./resources/images/Icon-4.png"><p>Mostramos un trabajo preliminar, con la imagen que queremos dar a la página web (secciones, colores, tipografías...)</p></li>
-            <li><img src="./resources/images/Icon-5.png"><p>Entregamos el proyecto terminado, asi como la descripción de las tareas efectuadas a lo largo de la realización del mismo.</p></li>
-            <li><img src="./resources/images/Icon-6.png"><p>Damos un tiempo para revisar que el diseño cumple con los objetivos marcados y en caso de ser necesario realizamos los cambios necesarios.</p></li>
-        </ol>
-        <hr>
-    </div>
-    <div class="equipo" id="equipo">
-        <h2>Equipo</h2>
-        <ol>
-            <li><img src="./resources/images/andres.jpg"><br><h3>Andrés Núñez-Milara Gómez</h3>Diseño Web<br>Marqueting y Desarrollo de Negocio<br><br><br><a href="https://www.linkedin.com/in/andresnunezmilara/" target="_blank"><strong>LinkedIn</strong></a></li>
-            <li><img src="./resources/images/belen.jpg"><br><h3>Belén Núñez-Milara Gómez</h3>Diseño Gráfico<br>Arquitecta de Interiores<br><br><br><a href="https://www.belenmg.com/" target="_blank"><strong>Web</strong></a></li>
-        </ol>
-    </div>
-    <div class="proyectos" id="proyectos">
-        <h2>Proyectos</h2>
-        <hr>
-        <ol>
-            <a href="./keril/keril.html" target="_blank"><li><img src="./resources/images/logo-cliente-1.png"></li></a>
-            <a href="https://www.aumpanshop.com/" target="_blank"><li><img src="./resources/images/logo-cliente-2.png"></li></a>
-            <a href="http://www.primatec.es" target="_blank"><li><img src="./resources/images/logo-cliente-3.png"></li></a>
-        </ol>
-        <hr>
-    </div>
-    <br>
-    <div class="preguntas" id="preguntas">
-        <h2>Preguntas Frecuentes</h2>
-        <ul>
-            <li>
-                <div class="qa">
-                    <input type="checkbox" id="qa0">
-                    <label for="qa0">¿Quién puede estar interesado?</label>
-                    <hr>
-                    <div>
-                    <p>Ya seas una empresa o un particular, si necesitas una pagina web estatica personalizada, una landing page única, que revisemos tu branding, o cualquier otro diseño, nosotros te ayudamos a mostrar la mejor imagen de ti o de tu negocio.</p>   
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="qa">
-                    <input type="checkbox" id="qa1">
-                    <label for="qa1">¿Cuesta mucho dinero?</label>
-                    <hr>
-                    <div>
-                        <p>Nuestra filosofía es hacer un trabajo de calidad con un presupuesto ajustado. Siempre buscamos que el precio sea el más competitivo del mercado, para ello, hemos optimizado nuestros procesos y los costes operativos son mínimos.</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="qa">
-                    <input type="checkbox" id="qa2">
-                    <label for="qa2">¿Cómo lo conseguimos?</label>
-                    <hr>
-                    <div>
-                        <p>Analizamos todos los elementos de tu marca, estableciendo conjuntamente el propósito buscado, y lo relacionamos con el marketing mix (producto, precio, distribución y promoción), con ello le damos a nuestro diseño un sentido y coherencia.</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="qa">
-                    <input type="checkbox" id="qa3">
-                    <label for="qa3">¿Y si no quedo satisfecho?</label>
-                    <hr>
-                    <div>
-                        <p>Sabemos que esto no va a ocurrir, pero siempre establecemos un plazo para revisar los resultados de las acciones emprendidas.</p>
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <div class="cajon2">
+            <ol>
+                <li class="cajon3"><h3>Branding</h3><p>Crearé tu logotipo, estudiaré tus colores corporativos, tipografía y cómo usarás todo esto en cualquier medio, digital o impreso. Ya sea papelería, merchandising, imágenes para RRSS... ¡para que puedas atraer a muchos clientes con algo bonito!</p></li>
+                <li class="cajon4"><h3>Maquetación</h3><p>¿Necesitas un diseño de revista, agenda, libro, folleto, catálogo... que sea claro y atractivo?</p></li>
+                <li class="cajon3"><h3>Ropa y accesorios</h3><p>Si buscas una camiseta u otra prenda con un diseño que nunca encuentras, tienes un evento y quieres vestir a tu equipo con una camiseta fabulosa, tienes una despedida de soltera y queréis ir todas iguales... cualquier cosa! yo lo diseño, confecciono y te lo envío!</p></li>
+                <li class="cajon4"><h3>Invitaciones para eventos</h3><p>¿Te casas, das una fiesta u organizas un evento? ¡te haré una invitación de lo más bonita!</p></li>
+            </ol>
+            <img src="resources/images/servicios.jpg">
+        </div>
     </div>
     <br>
     <div class="contacto" id="contacto">
@@ -176,25 +90,22 @@
                 </form>
             </li>
             <li>
-                <img src="./resources/images/Premiero-P-circulo.png">
+                <img src="./resources/images/logo bnmg 2019-B-05.png">
             </li>
         </ul>
     </div>
 <footer>
     <div class="legal">
-    <p>Premiero Copyright© 2020-2021 / Todos los derechos reservados
-    <br><a href="avisolegal.html">Aviso Legal</a>
-    <br><br><a href="mailto:info@premiero.es">info@premiero.es</a></p>
+    <p>| Copyright© 2021 | Diseñado por <a href="https://www.premiero.es/" target="_blank">Belenmg</a> |</p>
+    <p>| Todos los derechos reservados | <a href="avisolegal.html">Aviso Legal </a>|</p>
     </div>
     <div class="social">
-        <a href="mailto:info@premiero.es" target="_blank"><img src="./resources/images/icon-correo.png"></a>
-        <a href="https://api.whatsapp.com/send?phone=+34630457266" target="_blank"><img src="./resources/images/icon-whatsapp.png"></a>
-        <a href="https://www.linkedin.com/company/premiero-web/" target="_blank"><img src="./resources/images/icon-linkedin.png"></a>
-        <a href="https://twitter.com/premiero_web" target="_blank"><img src="./resources/images/icon-twitter.png"></a>
-        <a href="https://www.instagram.com/premiero_web/" target="_blank"><img src="./resources/images/icon-instagram.png"></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="./resources/images/instagram.png"></a>
+        <a href="https://www.facebook.com/aumpanshop" target="_blank"><img src="./resources/images/facebook.png"></a>
+        <a href="https://www.linkedin.com/in/bel%C3%A9n-n%C3%BA%C3%B1ez-milara-g%C3%B3mez-98357323/" target="_blank"><img src="./resources/images/linkedin.png"></a>
+        <a href="mailto:hola@belenmg.com" target="_blank"><img src="./resources/images/email.png"></a>
     </div>
 </footer>
-
 <div id="cajacookies">
     <p>Éste sitio web usa cookies, si permanece aquí acepta su uso.
     Puede leer más sobre el uso de cookies en nuestra <a href="politicadeprivacidad.html">Política de Privacidad</a>.
