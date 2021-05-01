@@ -156,7 +156,7 @@ a:hover {
 
 .entradilla {
     margin: 100px 0px;
-    max-width: 100%;
+    max-width: 80%;
     min-height: 100px;
     font-size: 22px;
     color: #5e780f;
@@ -181,11 +181,11 @@ a:hover {
 
 #texto_resumen {
     background-color: #feecd193;
-    width: 40%;
-    font-size: 18px;
+    width: 60%;
+    font-size: 22px;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
-
+    Line-height: 2;
 
 }
 
