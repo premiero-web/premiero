@@ -78,14 +78,13 @@ a {
     color:unset;
 }
 
-
-
 #cabecera {
     background-image: url("./resources/cabecera.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 700px;
+    margin-top: 65px;
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -94,11 +93,11 @@ a {
 }
 
 #cabecera #entradilla {
-    background-color: #ffffff;
-    color: #EA9427;
+    background-color: #ffffffa6;
+    color: #0A4056;
     font-family: 'Ubuntu', sans-serif;
     margin-left: 100px;
-    padding: 10px;
+    padding: 70px 10px;
     max-width: 550px;
     height: 100%;
 }
@@ -113,6 +112,10 @@ a {
 
 #cabecera #entradilla p {
     font-size: 14px;
+}
+
+#resumen {
+    margin-top: 130px;
 }
 
 #resumen ul {
@@ -140,6 +143,7 @@ a {
 }
 
 #valores {
+    margin-top: 130px;
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
@@ -205,6 +209,7 @@ a {
     background-size: cover;
     filter: opacity (20%);
     min-height: 700px;
+    margin-top: 130px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -214,9 +219,9 @@ a {
 
 }
 
-#contactanos h5 {
+#contactanos h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 62px;
+    font-size: 48px;
     text-align: center;
     color:#ffffff;
 }
@@ -368,7 +373,6 @@ footer ul li #linkedin {
     
     header nav ul li {
         margin-right: 5px;
-
         min-width: 20%;
 
     
@@ -380,15 +384,15 @@ footer ul li #linkedin {
     }
     
     #cabecera {
-        min-height: 450px;
+        height: 400px;
     }
     
     #cabecera #entradilla {
 
         margin-left: 20px;
         padding: 5px;
-        width: 90%;
-        height: 100%;
+        width: 85%;
+        height: 80%;
     }
     
     #cabecera #entradilla h1 {
@@ -401,6 +405,10 @@ footer ul li #linkedin {
     
     #cabecera #entradilla p {
         font-size: 12px;
+    }
+
+    #resumen {
+        margin-top: 60px;
     }
 
     #resumen ul {
@@ -430,6 +438,7 @@ footer ul li #linkedin {
         justify-content: center;
         max-width: 90%;
         margin: 0;
+        margin-top: 60px;
 
     }
 
@@ -500,11 +509,11 @@ footer ul li #linkedin {
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
-    
+        margin-top: 60px;
     }
     
-    #contactanos h5 {
-        font-size: 32px;
+    #contactanos h1 {
+        font-size: 28px;
     }
     
     #contactanos #boton {
