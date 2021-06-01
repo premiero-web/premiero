@@ -1,0 +1,294 @@
+header {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color:#ffffffc5;
+    position: fixed;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav #logo {
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    color: #2dabe1bb;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    min-width: 70%;
+
+}
+
+header nav ul li {
+    justify-content: flex-end;
+    margin-left: 15px;
+
+}
+
+header nav #acceso {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    background-color: #EA9427;
+    margin: 10px;
+    border-radius: 5px;
+    color:#ffffff;
+}
+
+#acceso:hover {
+    opacity: 0.50;
+  }
+
+a:hover {
+    opacity: 0.65;
+    color: #EA9427;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #0A4056;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:unset;
+}
+
+#cabecera {
+    background-image: url("./resources/cabecera-blog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecera h1 {
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 62px;
+}
+
+#articulos {
+    max-width: 85%;
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#articulos img {
+    width: 80%;
+}
+
+article {
+    width: 40%;
+    margin: 5%;
+}
+
+article p {
+    text-align: justify;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #2DAAE1;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul #logo2 {
+    width: 100px;
+}
+
+footer ul p {
+    max-width: 100%;
+}
+
+footer ul li #linkedin {
+    width: 50px;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    
+    body {
+        font-size: 14px;
+    }
+
+    header nav {
+  
+        min-width: 100%;
+        
+    }
+    
+    header nav #logo {
+        height: 30px;
+        padding: 3px;
+        padding-left: 5px;
+ 
+    }
+    
+    header nav ul {
+        font-size: 12px;
+        padding-right: 0px;
+        margin-right: 5px;
+
+    }
+    
+    header nav ul li {
+        margin-right: 5px;
+        min-width: 20%;
+    }
+    
+    header nav #acceso {
+        display: none;
+    }
+    
+    #cabecera {
+        min-height: 200px;
+    }
+    
+    #cabecera h1 {
+        font-size: 38px;
+    }
+
+
+    #articulos {
+        max-width: 90%;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #articulos img {
+        width: 80%;
+    }
+    
+    article {
+        width: 90%;
+        margin: 5%;
+    }
+
+    article h2 {
+        font-size: 16px;
+    }
+
+    footer {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    
+    footer ul #logo2 {
+        display: none;
+    }
+
+    footer ul li p {
+        font-size: 12px;
+    }
+    
+    footer ul li #linkedin {
+        display: none
+    }
+
+    
+}
+
+/* @media only screen and (max-width: 1200px) {
+
+
+
+    #valores #nuestrosvalores h1 {
+        font-size: 32px
+    }
+    
+    #valores #nuestrosvalores h3 {
+        font-size: 12px;
+    }
+        
+    #valores #nuestrosvalores ol li h3 {
+        font-size: 14px;
+    }
+    
+    #valores #nuestrosvalores ol li p {
+        font-size: 12px;
+    }
+
+    #contactanos {
+        min-height: 500px; 
+    }
+    
+    #contactanos h5 {
+        font-size: 22px;
+    }
+    
+    #contactanos #boton {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+    footer ul #logo2 {
+        width: 60px;
+}
+
+    footer ul p {
+        font-size: 14px;
+    }
+
+    footer ul li #linkedin {
+        width: 30px;
+    }
+}   
