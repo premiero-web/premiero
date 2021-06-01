@@ -82,6 +82,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 65px;
     min-height: 550px;
     width: 100%;
     display: flex;
@@ -173,30 +174,39 @@ a {
 }
     
 #beneficios {
-    border-radius: 15px;
-    background-image: url("./resources/sicap.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: opacity (20%);
-    min-height: 700px;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     flex-wrap: wrap;
-    color: #ffffff;
     line-height: 2.5;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 #beneficios h1 {
     font-size: 48px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    color:#EA9427;
     font-family: 'Poppins', sans-serif;
 }
 
+#beneficios ol {
+    margin-left: 20px;
+    min-width: 40%;
+    height: 315px;
+    text-align: justify;
+    list-style: lower-roman;
+}
+
+#beneficios img {
+    margin-right: 20px;
+    min-width: 30%;
+    height: 340px;
+    border-radius: 10px;
+}
 
 
 footer {
@@ -350,6 +360,24 @@ footer ul li #linkedin {
         margin-bottom: 40px;
         text-align: center;
     }
+
+    #beneficios img {
+        width: 80%;
+        height: auto;
+        margin: 0px;
+    }
+
+    #beneficios ol {
+        width: 80%;
+        height: auto;
+        margin: 20px 0px;
+        font-size: 12px;
+        line-height: 2;
+        text-align: center;
+        margin-right: 20px;
+    }
+    
+
 
     footer {
         padding-top: 0px;
