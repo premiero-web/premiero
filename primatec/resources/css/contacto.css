@@ -82,6 +82,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 65px;
     min-height: 650px;
     width: 100%;
     display: flex;
