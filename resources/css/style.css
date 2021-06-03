@@ -449,7 +449,6 @@ a:hover {
 }
 
 
-
 .equipo ol img {
     width: 300px;
     margin-bottom: 10px;
@@ -1020,6 +1019,23 @@ footer .social img {
         width: 100px;
     }
 
+    .equipo ol button {
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: #78290F;
+        font-size: 14px;
+        width: 90px;
+        height: 35px;
+    }
+    
+    .equipo ol button:hover {
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #78290F;
+    }
+    
+
+
     .proyectos {
         margin: 30px 0px;
     }
@@ -1203,6 +1219,14 @@ footer .social img {
         padding: 20px 0px;
         font-size: 28px;
     }
+
+    .equipo ol li {
+        font-size: 0.9rem;
+    }
+    
+    .equipo ol img {
+        width: 200px;
+    }
     
 
     .barralateral {
@@ -1233,5 +1257,8 @@ footer .social img {
         font-size: 14px;
     }
     
-
+    .contacto img {
+        width: 150px;
+        padding-top: 10px;
+    }
 }
