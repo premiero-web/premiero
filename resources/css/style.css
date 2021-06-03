@@ -41,12 +41,21 @@ nav ul li {
 
 nav ul button {
     background-color: #5e780f;
-    border: 0;
+    border: 4px transparent;
     padding: 7px 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 16px;
     font-family: 'Maven Pro', sans-serif;
     color: #FEECD1;
+}
+
+nav ul button:hover {
+    background-color: #ffffff;
+    border: 4px solid #5e780f;
+    border-radius: 20px;
+    padding: 3px 16px;
+    color: #5e780f;
+    opacity: 100%;
 }
 
 body {
@@ -74,8 +83,6 @@ a {
 
 a:hover {
     color: #5e780f;
-    margin-top: 5px;
-    opacity: 50%;
 }
 
 .cabecera {
@@ -420,12 +427,28 @@ a:hover {
     margin: 0px 80px;
 }
 
-.equipo ol a {
+.equipo ol button {
     background-color: #FEECD1;
-    border-radius: 10px;
-    padding: 10px 20px;
-    border: 1px ;
+    border: 0;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #78290F;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
 }
+
+.equipo ol button:hover {
+    background-color: #ffffff;
+    border: 4px solid #FEECD1;
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-size: 16px;
+    color: #78290F;
+}
+
+
 
 .equipo ol img {
     width: 300px;
@@ -614,19 +637,21 @@ a:hover {
     background-color: #78290F;
     border: 0;
     padding: 7px 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-family: 'Maven Pro', sans-serif;
     color: #FEECD1;
     font-size: 18px;
     width: 458px;
-    height: 40px;
+    height: 45px;
 }
 
 .contacto button:hover {
-    color: #5e780f;
-    color: #FEECD1;
-    margin-top: 5px;
-    opacity: 50%;
+    background-color: #5e780f0e;
+    border: 4px solid #78290F;
+    border-radius: 20px;
+    padding: 7px 20px;
+    color: #78290F;
+    opacity: 100%;
 }
 
 .avisolegal {
@@ -692,7 +717,7 @@ a:hover {
     background-color: #78290F;
     border: 0;
     padding: 7px 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-family: 'Maven Pro', sans-serif;
     color: #FEECD1;
     font-size: 14px;
@@ -701,10 +726,11 @@ a:hover {
 }
 
 #cajacookies button:hover {
-    color: #5e780f;
-    color: #FEECD1;
-    margin-top: 5px;
-    opacity: 50%;
+    background-color: #ffffffbe;
+    border: 4px solid #78290F;
+    border-radius: 20px;
+    padding: 7px 20px;
+    color: #78290F;
 }
 
 footer {
