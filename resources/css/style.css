@@ -83,6 +83,7 @@ a {
 
 a:hover {
     color: #5e780f;
+    opacity: 70%;
 }
 
 .cabecera {
