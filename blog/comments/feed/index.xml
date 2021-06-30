@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comentarios en Premiero	</title>
-	<atom:link href="http://premiero.es/blog/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://premiero.es/blog</link>
+	<atom:link href="http://premiero.es/blog/index.html/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://premiero.es/blog/index.html</link>
 	<description>Otro sitio realizado con WordPress</description>
 	<lastBuildDate>Wed, 30 Jun 2021 17:27:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Comentario en ¡Hola, mundo! por Un comentarista de WordPress		</title>
-		<link>http://premiero.es/blog/2021/06/30/hola-mundo/#comment-1</link>
+		<link>http://premiero.es/blog/index.html/2021/06/30/hola-mundo/#comment-1</link>
 
 		<dc:creator><![CDATA[Un comentarista de WordPress]]></dc:creator>
 		<pubDate>Wed, 30 Jun 2021 17:27:39 +0000</pubDate>
-		<guid isPermaLink="false">http://premiero.es/blog/?p=1#comment-1</guid>
+		<guid isPermaLink="false">http://premiero.es/blog/index.html/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hola, esto es un comentario.
 Para empezar a moderar, editar y borrar comentarios, por favor, visita la pantalla de comentarios en el escritorio.
