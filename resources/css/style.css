@@ -762,6 +762,7 @@ a:hover {
 }
 
 footer {
+    line-height: 0.6;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1246,6 +1247,7 @@ footer .social img {
     }
 
     footer .legal {
+        line-height: 1.2;
         padding: 0px 50px;
         font-size: 14px;
     }
