@@ -31,6 +31,15 @@ nav {
 	right:20px;
     border-radius: 120px;
     z-index: 100;
+    border: 4px transparent;
+}
+
+.ir-arriba:hover {
+    background-color: #ffffff;
+    border: 4px solid #5e780f;
+    color: #5e780f;
+    opacity: 75%;
+    padding: 6px;
 }
 
 #logo {
