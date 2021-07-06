@@ -17,6 +17,21 @@ nav {
     z-index: 100;
 }
 
+.ir-arriba {
+	display:none;
+	padding: 10px;
+    width: 25px;
+    text-align: center;
+	background:#5e780f;
+	font-size:18px;
+    color: #FEECD1;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+    border-radius: 120px;
+}
+
 #logo {
     height: 40px;
     padding: 8px;
@@ -162,7 +177,7 @@ a:hover {
 
 .entradilla {
     margin: 100px 0px;
-    max-width: 80%;
+    max-width: 90%;
     min-height: 100px;
     font-size: 22px;
     color: #5e780f;
@@ -245,7 +260,7 @@ a:hover {
 }
 
 .servicios ul img {
-    width: 75px;
+    width: 55px;
 }
 
 
@@ -786,6 +801,17 @@ footer .social img {
         font-size: 14px;
     }
 
+    .ir-arriba {
+  
+        padding: 10px;
+        width: 20px;
+        font-size:14px;
+        color: #FEECD1;
+        bottom:10px;
+        right:10px;
+        border-radius: 120px;
+    }
+
     hr {
         margin: 20px 10%;
         height: 2px;
@@ -1011,11 +1037,11 @@ footer .social img {
     }
     
     .servicios ul li {
-        width: 25%;
+        width: 20%;
     }
     
     .servicios ul img {
-        width: 50px;
+        width: 40px;
     }
 
     .proceso {
