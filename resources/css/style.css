@@ -30,6 +30,7 @@ nav {
 	bottom:20px;
 	right:20px;
     border-radius: 120px;
+    z-index: 100;
 }
 
 #logo {
@@ -802,11 +803,9 @@ footer .social img {
     }
 
     .ir-arriba {
-  
         padding: 10px;
         width: 20px;
         font-size:14px;
-        color: #FEECD1;
         bottom:10px;
         right:10px;
         border-radius: 120px;
